@@ -50,10 +50,11 @@ formatter.match({
   "location": "seleniumSteps.we_validate_the(String)"
 });
 formatter.result({
-  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[cucumbe]\u003e but was:\u003c[Cucumber]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.seleniumSteps.we_validate_the(seleniumSteps.java:91)\r\n\tat ✽.We validate the \"cucumbe\"(file:src/test/resources/features/Selenium.feature:7)\r\n",
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[cucumbe]\u003e but was:\u003c[Cucumber]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.seleniumSteps.we_validate_the(seleniumSteps.java:100)\r\n\tat ✽.We validate the \"cucumbe\"(file:src/test/resources/features/Selenium.feature:7)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png", null);
+formatter.write("Check the typing of keyword");
 formatter.after({
   "status": "passed"
 });

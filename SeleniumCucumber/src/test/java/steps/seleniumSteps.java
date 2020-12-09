@@ -37,6 +37,7 @@ public class seleniumSteps {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		System.out.println("Done a change in local git");
 	}
 
 	@After
